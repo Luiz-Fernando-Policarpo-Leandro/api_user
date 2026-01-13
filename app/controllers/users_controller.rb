@@ -1,5 +1,9 @@
 class UsersController < ApplicationController
-    before_action :authorization
+    #before_action :authorization
+
+    def index
+        
+    end
 
     def create
         user = User.new(user_params)
